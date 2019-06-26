@@ -1,11 +1,3 @@
-/*
-	Name: BookCard
-	Description: Responsive HTML5 vCard Template
-	Version: 1.2.2
-	Author: pixelwars
-*/
-
-
 /* --- 
 MAIN STYLE FILE */
 
@@ -186,8 +178,8 @@ input.error ,textarea.error { border-color: #C33; }
 .contact-form input, .contact-form textarea { display:block; float: left; width: 70% !important; -moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box; }
 .contact-form textarea { height: 100px; }
 .contact-form input.submit { width:auto !important; margin-top: 1.2em; float:right !important; }
-.stamp { position:relative; float:right; margin-right: 0.4em; width:114px; height:134px; background:url(../images/bckg/stamp.png) 0 0 no-repeat; }
-.stamp:after { content:""; position:absolute; top:0; left:0; width: 100%; height:100%; background:url(../images/bckg/stamp-mask.png) 0 0 no-repeat; }
+.stamp { position:relative; float:right; margin-right: 0.4em; width:114px; height:134px; }
+.stamp:after { content:""; position:absolute; top:0; left:0; width: 100%; height:100%; }
 .stamp img { display: block; width:94px; height: 114px; position:absolute; top:10px; left:10px; }
 .letter { padding-bottom: 1.2em; }
 .letter-info { float: left; margin-left: .4em; }
@@ -544,6 +536,7 @@ a.ribbon:hover { color: #000; }
 .w420 h2 { font-size: 1.6em; }
 .w420 .letter-info { float: none; text-align: center; margin-left: 0;}
 .w420 .stamp { float: none; margin: 0 auto;}
+.w420 .stamp-img {  }
 .w420 .contact-form label { float: none; width: 100%; }
 .w420 .contact-form input, .w420 .contact-form textarea { float: none; width: 100%; }
 /* resume page */	

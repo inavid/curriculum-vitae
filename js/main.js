@@ -1,11 +1,3 @@
-/*
-	Name: BookCard
-	Description: Responsive HTML5 vCard Template
-	Version: 1.2
-	Author: pixelwars
-*/
-
-
 (function ($) {
 
 	var safeMod = false;
